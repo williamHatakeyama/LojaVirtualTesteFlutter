@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "863317058185",
+    "firebase_url": "https://ferrovelhoteste-233af.firebaseio.com",
+    "project_id": "ferrovelhoteste-233af",
+    "storage_bucket": "ferrovelhoteste-233af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863317058185:android:35b0cfa17488b9a03a9c58",
+        "android_client_info": {
+          "package_name": "br.com.william.ferrovelhoo.firstappferrovelho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863317058185-2jvt552qkul80ns9i66mfpjp2n2fihpo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.william.ferrovelhoo.firstappferrovelho",
+            "certificate_hash": "debeb8ba5fad6f6eff0a804cb04b303cbf0bad27"
+          }
+        },
+        {
+          "client_id": "863317058185-g2033lgahl3e0am3gkgn3215r8mqugg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADCr-HGxyHrWtXg9mkgiKv0IV-6tZeDw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863317058185-g2033lgahl3e0am3gkgn3215r8mqugg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

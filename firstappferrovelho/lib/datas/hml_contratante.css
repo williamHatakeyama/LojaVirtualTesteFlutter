@@ -1,0 +1,84 @@
+.main-footer .lower-footer .bs-footer-links {
+  border-bottom: solid 2px rgba(172, 172, 172, 0.6);
+  padding: 0px 0px 40px;
+}
+
+.main-footer .lower-footer .bs-footer-links ul {
+  text-align: center;
+  width: 100%;
+}
+
+.main-footer .lower-footer .bs-footer-links ul li {
+  font-family: 'Montserrat', 'Open Sans';
+  font-size: 0.875em;
+  font-weight: 700;
+  color: #E60935;
+  line-height: 1.375em;
+}
+
+.main-footer .lower-footer .bs-footer-links ul li .label-lg {
+  display: none;
+}
+
+.main-footer .lower-footer .bs-footer-links ul li .label-md {
+  display: none;
+}
+
+.main-footer .lower-footer .bs-footer-links ul li .label-sm {
+  display: block;
+}
+
+.main-footer .lower-footer .bs-footer-links {
+    border-bottom: solid 2px #E9E9E9;
+    padding: 40px 0px;
+  }
+  .main-footer .lower-footer .bs-footer-links ul {
+    text-align: center;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .main-footer .lower-footer .bs-footer-links ul li {
+    font-family: 'Montserrat', 'Open Sans';
+    font-size: 0.875em;
+    font-weight: 700;
+    color: #E60935;
+    line-height: 1.375em;
+  }
+  .main-footer .lower-footer .bs-footer-links ul li .label-lg {
+    display: none;
+  }
+  .main-footer .lower-footer .bs-footer-links ul li .label-sm {
+    display: none;
+  }
+  .main-footer .lower-footer .bs-footer-links ul li .label-md {
+    display: block;
+  }
+  @media all and (min-width: 992px) {
+    .main-footer .lower-footer .bs-footer-links ul {
+      width: 100%;
+      max-width: 870px;
+      margin: 0 auto;
+    }
+    .main-footer .lower-footer .bs-footer-links ul li .label-sm {
+      display: none;
+    }
+    .main-footer .lower-footer .bs-footer-links ul li .label-md {
+      display: none;
+    }
+    .main-footer .lower-footer .bs-footer-links ul li .label-lg {
+      display: block;
+    }
+    .main-footer .lower-footer .bottom-bar {
+      max-width: 970px;
+    }
+  }
