@@ -3,6 +3,7 @@ import 'package:firstappferrovelho/datas/cart_product.dart';
 import 'package:firstappferrovelho/datas/product_data.dart';
 import 'package:firstappferrovelho/models/cart_model.dart';
 import 'package:firstappferrovelho/models/user_model.dart';
+import 'package:firstappferrovelho/screens/cart_screen.dart';
 import 'package:firstappferrovelho/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -117,6 +118,11 @@ class _ProductScreenState extends State<ProductScreen> {
                               cartProduct.categoria = product.category;
                               
                               CartModel.of(context).addCartItem(cartProduct);
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (context) => CartScreen(),
+                                ),
+                              );
                             } else {
                               Navigator.of(context).push(
                                 MaterialPageRoute(
