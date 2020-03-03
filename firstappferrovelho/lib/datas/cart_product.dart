@@ -22,6 +22,7 @@ class CartProduct {
 
   Map<String, dynamic> toMap(){
     return {
+      'cid': cid,
       'category': categoria,
       'pid': pid,
       'quantity' : quantity,

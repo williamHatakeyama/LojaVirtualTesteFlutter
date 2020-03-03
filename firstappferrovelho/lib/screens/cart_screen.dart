@@ -2,6 +2,9 @@ import 'package:firstappferrovelho/models/cart_model.dart';
 import 'package:firstappferrovelho/models/user_model.dart';
 import 'package:firstappferrovelho/screens/login_screen.dart';
 import 'package:firstappferrovelho/tiles/cart_tile.dart';
+import 'package:firstappferrovelho/widgets/cart_price.dart';
+import 'package:firstappferrovelho/widgets/discount_card.dart';
+import 'package:firstappferrovelho/widgets/ship_card.dart';
 import 'package:flutter/material.dart';
 import 'package:scoped_model/scoped_model.dart';
 
@@ -81,10 +84,18 @@ class CartScreen extends StatelessWidget {
           return ListView(
             children: <Widget>[
               Column(
-                children: model.products.map((product){
+                children: model.products.map((product) {
                   return CartTile(product);
                 }).toList(),
-              )
+              ),
+              DiscountCard(),
+              ShipCard(),
+              CartPrice(() async {
+                String orderId = await model.finishOrder();
+                if (orderId != null) {
+                  print(orderId);
+                }
+              }),
             ],
           );
         }
