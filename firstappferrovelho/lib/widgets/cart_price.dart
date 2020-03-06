@@ -79,7 +79,7 @@ class CartPrice extends StatelessWidget {
                 ),
                 SizedBox(height: 12),
                 RaisedButton(
-                  onPressed: () {model.finishOrder();},
+                  onPressed: buy,
                   textColor: Colors.white,
                   color: Theme.of(context).primaryColor,
                   child: Text('Finalizar Pedido'),
